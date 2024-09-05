@@ -57,7 +57,7 @@ Welcome to the Interactive Storytelling Platform! This project allows users to r
    ```bash
    python -m venv env
    env\Scripts\activate
-   source venv/bin/activate
+   source env/bin/activate
    
 3. Install django-cors-headers and django-rest-framework
    ```bash
