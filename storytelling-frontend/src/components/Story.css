@@ -1,0 +1,44 @@
+.story-container {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .story-box {
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #0f0, 0 0 20px #0f0, 0 0 30px #0f0;
+  }
+  
+  .neon-text {
+    color: #0f0;
+    text-shadow: 0 0 5px #0f0, 0 0 10px #0f0, 0 0 15px #0f0;
+  }
+  
+  .neon-button {
+    color: #fff;
+    background-color: #1a1a1a;
+    border: 2px solid #0f0;
+    box-shadow: 0 0 5px #0f0, 0 0 10px #0f0;
+    transition: 0.3s;
+  }
+  
+  .neon-button:hover {
+    background-color: #0f0;
+    color: #1a1a1a;
+    box-shadow: 0 0 20px #0f0, 0 0 30px #0f0;
+  }
+  
+  .neon-select {
+    color: #0f0;
+    border-color: #0f0;
+    margin-bottom: 20px;
+  }
+  
+  .neon-select .MuiSelect-icon {
+    color: #0f0;
+  }
+  
+  .neon-select .MuiOutlinedInput-notchedOutline {
+    border-color: #0f0;
+  }
