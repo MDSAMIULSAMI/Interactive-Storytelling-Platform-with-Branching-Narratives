@@ -43,7 +43,7 @@ Welcome to the Interactive Storytelling Platform! This project allows users to r
 3. **Run the Development Server**
 
    ```bash
-   npm install
+   npm start
 
 ### Backend Setup (Django REST Framework)
 
