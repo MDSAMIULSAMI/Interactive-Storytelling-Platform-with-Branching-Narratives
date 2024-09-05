@@ -13,7 +13,7 @@ Welcome to the Interactive Storytelling Platform! This project allows users to r
 
 - **Frontend**: React JS, Material-UI
 - **Backend**: Django REST Framework
-- **Database**: SQLite (or other databases as configured)
+- **Database**: SQLite
 - **Styles**: Custom CSS for neon effect
 
 ## Setup Instructions
@@ -24,7 +24,8 @@ Welcome to the Interactive Storytelling Platform! This project allows users to r
 - **Python** (v3.8 or later): [Download and install Python](https://www.python.org/downloads/)
 - **pip** (Python package installer): Included with Python
 - **virtualenv** (Python virtual environment tool): Install via `pip install virtualenv`
-
+- 
+  
 ### Frontend Setup (React)
 
 1. **Clone the Repository**
@@ -32,3 +33,42 @@ Welcome to the Interactive Storytelling Platform! This project allows users to r
    ```bash
    git clone https://github.com/yourusername/interactive-storytelling-platform.git
    cd interactive-storytelling-platform/storytelling-frontend
+   
+2. **Install Dependencies**
+
+   ```bash
+   npm install
+
+
+3. **Run the Development Server**
+
+   ```bash
+   npm install
+
+### Backend Setup (Django REST Framework)
+
+1. **Goto File**
+
+   ```bash
+   cd interactive-storytelling-platform/story_platform
+   
+2. **Create and Activate a Virtual Environment**
+
+   ```bash
+   python -m venv env
+   env\Scripts\activate
+   source venv/bin/activate
+   
+3. Install django-cors-headers and django-rest-framework
+   ```bash
+   pip install django-cors-headers djangorestframework
+   
+4. **Apply Migrations**
+
+   ```bash
+   python manage.py migrate
+
+5. **Run the Development Server**
+
+   ```bash
+   python manage.py runserver
